@@ -1,7 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 
 Console.WriteLine("~~~ NYT Games Letter Box Solver ~~~");
-Console.WriteLine("Enter letters, starting from top left, moving clockwise:");
+Console.WriteLine("Enter letters, starting from top left, moving clockwise around the box");
+Console.WriteLine("Example: tamurdibqeno");
 
 var input = Console.ReadLine()?.Replace(" ", "").Replace(",", "");
 
